@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #E3FDFD;
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    max-width: 50%;
+    margin: 20px auto 25px;
+}
+
+#caption {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: 0 auto 20px;
+}
+
+#image {
+    max-width: 50%;
+    margin: 0 auto 16px;
+}
+
+#image-caption {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: 0 auto 35px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#tribute-info {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+ul {
+    text-align: left;
+    
+}
+
+ul li {
+    list-style-type: square;
+    padding: 10px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+blockquote {
+    margin-top: 12px;
+    margin-bottom: 40px;
+    border: 1px solid;
+}
+
+#visit-page {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+}
+
+/* tab version */
+@media (max-width: 860px) {
+
+    #title {
+        font-size: 2.3rem;
+    }
+
+}
+
+/* mobile version */
